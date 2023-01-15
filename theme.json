@@ -7,34 +7,34 @@
       "defaultPalette": false,
       "palette": [
         {
-          "slug": "bdac-red",
+          "slug": "dev-red",
           "color": "#d91f26",
-          "name": "BDAC Red"
+          "name": "dev Red"
         },
         {
-          "slug": "bdac-blue",
+          "slug": "dev-blue",
           "color": "#071f5b",
-          "name": "BDAC Blue"
+          "name": "dev Blue"
         },
         {
-          "slug": "bdac-blue-alt",
+          "slug": "dev-blue-alt",
           "color": "#dbe2f3",
-          "name": "BDAC Alt Blue"
+          "name": "dev Alt Blue"
         },
         {
-          "slug": "bdac-white",
+          "slug": "dev-white",
           "color": "#f7f7ff",
-          "name": "BDAC White"
+          "name": "dev White"
         },
         {
           "slug": "quaternary-colour",
           "color": "#fcba04",
-          "name": "BDAC Yellow"
+          "name": "dev Yellow"
         },
         {
-          "slug": "bdac-black",
+          "slug": "dev-black",
           "color": "#304048",
-          "name": "BDAC Black"
+          "name": "dev Black"
         },
         {
           "slug": "white:",
@@ -66,12 +66,12 @@
       "fontFamilies": [
         {
           "fontFamily": "font-family: 'Open Sans', sans-serif;",
-          "slug": "bdac-opensans",
+          "slug": "dev-opensans",
           "name": "Open Sans"
         },
         {
           "fontFamily": "font-family: 'Oswald', sans-serif;",
-          "slug": "bdac-oswald",
+          "slug": "dev-oswald",
           "name": "Oswald"
         }
       ],
@@ -103,21 +103,21 @@
   },
   "styles": {
     "color": {
-      "text": "var(--wp--preset--color--bdac-black)",
-      "background": "var(--wp--preset--color--bdac-white)"
+      "text": "var(--wp--preset--color--dev-black)",
+      "background": "var(--wp--preset--color--dev-white)"
     },
     "elements": {
       "link": {
         "color": {
-          "text": "var(--wp--preset--color--bdac-red)"
+          "text": "var(--wp--preset--color--dev-red)"
         }
       }
     },
     "blocks": {
       "core/button": {
         "color": {
-          "background": "var(--wp--preset--color--bdac-red)",
-          "text": "var(--wp--preset--color--bdac-blue)"
+          "background": "var(--wp--preset--color--dev-red)",
+          "text": "var(--wp--preset--color--dev-blue)"
         }
       },
       "core/pullquote": {
@@ -125,17 +125,17 @@
           "width": "2px",
           "radius": "10px",
           "style": "solid",
-          "color": "var(--wp--preset--color--bdac-red)"
+          "color": "var(--wp--preset--color--dev-red)"
         }
       },
       "core/site-title": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--bdac-oswald)"
+          "fontFamily": "var(--wp--preset--font-family--dev-oswald)"
         }
       }
     },
     "typography": {
-      "fontFamily": "var(--wp--preset--font-family--bdac-opensans)",
+      "fontFamily": "var(--wp--preset--font-family--dev-opensans)",
       "fontSize": "1rem",
       "fontStyle": "normal",
       "fontWeight": "normal",
