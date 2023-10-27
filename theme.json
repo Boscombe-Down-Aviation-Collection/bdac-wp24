@@ -59,6 +59,75 @@
                 }
             ]
         },
+        "typography": {
+            "customFontSize": false,
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFamily": "Oswald, sans-serif",
+                    "slug": "dev23-oswald",
+                    "name": "Oswald"
+                },
+                {
+                    "fontFamily": "Raleway, sans-serif",
+                    "slug": "dev23-raleway",
+                    "name": "Raleway"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "small",
+                    "size": "0.75rem",
+                    "name": "Small",
+                    "fluid": {
+                        "min": "0.75rem",
+                        "max": "0.75rem"
+                    }
+                },
+                {
+                    "slug": "medium",
+                    "size": "1rem",
+                    "name": "Small",
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1rem"
+                    }
+                },
+                {
+                    "slug": "large",
+                    "size": "1.5rem",
+                    "name": "Small",
+                    "fluid": {
+                        "min": "1.25rem",
+                        "max": "1.5rem"
+                    }
+                },
+                {
+                    "slug": "x-large",
+                    "size": "2.25rem",
+                    "name": "XL",
+                    "fluid": {
+                        "min": "2rem",
+                        "max": "2.25rem"
+                    }
+                },
+                {
+                    "slug": "xx-large",
+                    "size": "3rem",
+                    "name": "2XL",
+                    "fluid": {
+                        "min": "2.5rem",
+                        "max": "3rem"
+                    }
+                }
+            ],
+            "lineHeight": true,
+            "dropCap": true,
+            "fontWeight": true,
+            "fontStyle": true,
+            "textTransform": true,
+            "textDecoration": true
+        },
         "blocks": {
             "core/site-title": {
                 "color": {
@@ -68,9 +137,49 @@
                     "customGradient": false
                 }
             },
+            "core/button": {
+                "color": {
+                    "defaultPalette": false,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Oswald, sans-serif",
+                            "slug": "dev23-oswald",
+                            "name": "Oswald"
+                        }
+                    ]
+                }
+            },
+            "core/buttons": {
+                "color": {
+                    "defaultPalette": false,
+                    "custom": false,
+                    "gradients": [],
+                    "customGradient": false
+                },
+                "typography": {
+                    "fontFamilies": [
+                        {
+                            "fontFamily": "Oswald, sans-serif",
+                            "slug": "dev23-oswald",
+                            "name": "Dev23 Oswald"
+                        }
+                    ]
+                }
+            },
             "core/cover": {
                 "color": {
                     "duotone": []
+                }
+            },
+            "core/preformatted": {
+                "typography": {
+                    "fontSizes": [],
+                    "customFontSize": false
                 }
             }
         }
@@ -91,7 +200,12 @@
                     "style": "solid",
                     "radius": "0.625rem",
                     "width": "0.125rem"
-                }      
+                }     
+            },
+            "core/site-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                }
             }
         },
         "elements": {
@@ -103,33 +217,60 @@
             "h1": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             },
             "h2": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             },
             "h3": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             },
             "h4": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             },
             "h5": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             },
             "h6": {
                 "color": {
                     "text": "var(--wp--preset--color--dev-23-blue)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
                 }
             }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--dev-23-raleway)",
+            "fontSize": "16px",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+            "lineHeight": "inherit",
+            "textDecoration": "none",
+            "textTransform": "none"
         }
     }
 }
