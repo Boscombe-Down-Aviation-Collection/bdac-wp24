@@ -80,6 +80,20 @@
             "background": "var(--wp--preset--color--dev-23-white)",
             "text": "var(--wp--preset--color--dev-23-black)"
         },
+        "blocks": {
+            "core/button": {
+                "color": {
+                    "background": "var(--wp--preset--color--dev-23-red)",
+                    "text": "var(--wp--preset--color--dev-23-white)"
+                },
+                "border": {
+                    "color": "var(--wp--preset--color--dev-23-red)",
+                    "style": "solid",
+                    "radius": "0.625rem",
+                    "width": "0.125rem"
+                }      
+            }
+        },
         "elements": {
             "link": {
                 "color": {
