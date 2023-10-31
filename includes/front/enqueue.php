@@ -3,7 +3,9 @@
 function dev23_enqueue() {
     wp_register_style( 
         'dev23_font_oswald_opens_sans', 
-        'https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap', 
+        'https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap',
+        [],
+        null
     );
     wp_register_style( 
         'dev23_bootstrap_icons', 
