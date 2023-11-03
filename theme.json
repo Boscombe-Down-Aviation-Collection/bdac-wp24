@@ -198,7 +198,7 @@
                 "vw",
                 "%"
             ],
-            "blockGap": true
+            "blockGap": false
         }
     },
     "styles": {
@@ -207,6 +207,11 @@
             "text": "var(--wp--preset--color--dev-23-black)"
         },
         "blocks": {
+            "core/group": {
+                "spacing": {
+                    "blockGap": "1rem"
+                }
+            },
             "core/button": {
                 "color": {
                     "background": "var(--wp--preset--color--dev-23-red)",
