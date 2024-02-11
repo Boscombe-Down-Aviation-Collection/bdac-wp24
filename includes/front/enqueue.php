@@ -22,5 +22,6 @@ function bdac24_enqueue() {
 
     wp_enqueue_style( 'bdac24_font_oswald_opens_sans' );
     wp_enqueue_style( 'bdac24_bootstrap_icons' );
+    wp_enqueue_style( 'bdac24_tailwind' );
     wp_enqueue_style( 'bdac24_theme' );
 } 
