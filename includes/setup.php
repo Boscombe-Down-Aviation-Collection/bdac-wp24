@@ -1,6 +1,6 @@
 <?php
 
-function dev23_setup_theme() {
+function bdac24_setup_theme() {
     add_theme_support( 'editor-styles' );
 
     add_editor_style([

@@ -9,6 +9,6 @@ include( get_theme_file_path( '/includes/setup.php' ) );
 
 // Hooks
 
-add_action( 'wp_enqueue_scripts', 'dev23_enqueue' );
-add_action( 'wp_head', 'dev23_head', 7 );
-add_action( 'after_setup_theme', 'dev23_setup_theme' );
+add_action( 'wp_enqueue_scripts', 'bdac24_enqueue' );
+add_action( 'wp_head', 'bdac24_head', 7 );
+add_action( 'after_setup_theme', 'bdac24_setup_theme' );

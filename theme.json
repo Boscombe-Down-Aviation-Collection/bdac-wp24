@@ -7,34 +7,44 @@
             "defaultPalette": false,
             "palette": [
                 {
-                    "slug": "dev23-red",
+                    "slug": "bdac24-red",
                     "color": "#d91f26",
-                    "name": "Dev Red"
+                    "name": "BDAC Red"
                 },
                 {
-                    "slug": "dev23-blue",
+                    "slug": "bdac24-blue",
                     "color": "#071f5b",
-                    "name": "Dev Blue"
+                    "name": "BDAC Blue"
                 },
                 {
-                    "slug": "dev23-blue-alt",
+                    "slug": "bdac24-blue-alt",
                     "color": "#dbe2f3",
-                    "name": "Dev Blue Alt"
+                    "name": "BDAC Blue Alt"
                 },
                 {
-                    "slug": "dev23-yellow",
+                    "slug": "bdac24-yellow",
                     "color": "#fcba04",
-                    "name": "Dev yellow"
+                    "name": "BDAC Yellow"
                 },
                 {
-                    "slug": "dev23-white",
+                    "slug": "bdac24-white",
                     "color": "#f7f7ff",
-                    "name": "Dev White"
+                    "name": "BDAC White"
                 },
                 {
-                    "slug": "dev23-black",
+                    "slug": "bdac24-black",
                     "color": "#304048",
-                    "name": "Dev Black"
+                    "name": "BDAC Black"
+                },
+                {
+                    "slug": "white",
+                    "color": "#ffffff",
+                    "name": "White"
+                },
+                {
+                    "slug": "black",
+                    "color": "#000000",
+                    "name": "Black"
                 }
             ],
             "background": true,
@@ -48,14 +58,14 @@
                         "#071f5b",
                         "#d91f26"
                     ],
-                    "name": "Dev BDAC Sunset"
+                    "name": "BDAC BDAC Sunset"
                 }
             ],
             "defaultGradients": false,
             "gradients": [
                 {
                     "slug": "dev-summer-dog",
-                    "name": "Dev Summer Dog",
+                    "name": "BDAC Summer Dog",
                     "gradient": "linear-gradient(90deg, #d91f26, #071f5b)"
                 }
             ]
@@ -66,12 +76,12 @@
             "fontFamilies": [
                 {
                     "fontFamily": "Oswald, sans-serif",
-                    "slug": "dev23-oswald",
+                    "slug": "bdac24-oswald",
                     "name": "Oswald"
                 },
                 {
                     "fontFamily": "Raleway, sans-serif",
-                    "slug": "dev23-raleway",
+                    "slug": "bdac24-raleway",
                     "name": "Raleway"
                 }
             ],
@@ -149,7 +159,7 @@
                     "fontFamilies": [
                         {
                             "fontFamily": "Oswald, sans-serif",
-                            "slug": "dev23-oswald",
+                            "slug": "bdac24-oswald",
                             "name": "Oswald"
                         }
                     ]
@@ -166,8 +176,8 @@
                     "fontFamilies": [
                         {
                             "fontFamily": "Oswald, sans-serif",
-                            "slug": "dev23-oswald",
-                            "name": "Dev23 Oswald"
+                            "slug": "bdac24-oswald",
+                            "name": "bdac24 Oswald"
                         }
                     ]
                 }
@@ -203,8 +213,8 @@
     },
     "styles": {
         "color": {
-            "background": "var(--wp--preset--color--dev-23-white)",
-            "text": "var(--wp--preset--color--dev-23-black)"
+            "background": "var(--wp--preset--color--bdac-24-white)",
+            "text": "var(--wp--preset--color--bdac-24-black)"
         },
         "blocks": {
             "core/group": {
@@ -214,11 +224,11 @@
             },
             "core/button": {
                 "color": {
-                    "background": "var(--wp--preset--color--dev-23-red)",
-                    "text": "var(--wp--preset--color--dev-23-white)"
+                    "background": "var(--wp--preset--color--bdac-24-red)",
+                    "text": "var(--wp--preset--color--bdac-24-white)"
                 },
                 "border": {
-                    "color": "var(--wp--preset--color--dev-23-red)",
+                    "color": "var(--wp--preset--color--bdac-24-red)",
                     "style": "solid",
                     "radius": "0.625rem",
                     "width": "0.125rem"
@@ -226,67 +236,67 @@
             },
             "core/site-title": {
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             }
         },
         "elements": {
             "link": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-red)"
+                    "text": "var(--wp--preset--color--bdac-24-red)"
                 }
             },
             "h1": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             },
             "h2": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             },
             "h3": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             },
             "h4": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             },
             "h5": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             },
             "h6": {
                 "color": {
-                    "text": "var(--wp--preset--color--dev-23-blue)"
+                    "text": "var(--wp--preset--color--bdac-24-blue)"
                 },
                 "typography": {
-                    "fontFamily": "var(--wp--preset--font-family--dev-23-oswald)"
+                    "fontFamily": "var(--wp--preset--font-family--bdac-24-oswald)"
                 }
             }
         },
         "typography": {
-            "fontFamily": "var(--wp--preset--font-family--dev-23-raleway)",
+            "fontFamily": "var(--wp--preset--font-family--bdac-24-raleway)",
             "fontSize": "16px",
             "fontStyle": "normal",
             "fontWeight": "normal",
