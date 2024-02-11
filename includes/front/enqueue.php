@@ -12,11 +12,16 @@ function bdac24_enqueue() {
         get_theme_file_uri( '/assets/bootstrap-icons/bootstrap-icons.css' ),
     );
     wp_register_style( 
+        'bdac24_tailwind', 
+        get_theme_file_uri( '/assets/public/main.css' ),
+    );
+    wp_register_style( 
         'bdac24_theme', 
         get_theme_file_uri( '/assets/public/index.css' ),
     );
 
     wp_enqueue_style( 'bdac24_font_oswald_opens_sans' );
     wp_enqueue_style( 'bdac24_bootstrap_icons' );
+    wp_enqueue_style( 'bdac24_tailwind' );
     wp_enqueue_style( 'bdac24_theme' );
 } 
